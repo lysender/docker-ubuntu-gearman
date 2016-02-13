@@ -6,7 +6,7 @@ ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update && \
     apt-get -y install git \
     supervisor \
-    gearman-server \
+    gearman-job-server \
     libgearman7 \
     libgearman-dev && apt-get clean
 
